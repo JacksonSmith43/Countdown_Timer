@@ -1,0 +1,22 @@
+body {
+  background-color: gray;
+}
+
+
+.flex-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center; /* Horizontal. */
+  align-items: center; /* Vertical. */
+  height: 100vh; /* The size has to be put, in order for vertical and horizontal alignment to work. */
+}
+
+input {
+  width: 5rem;
+
+}
+
+
+p {
+  font-size: 2rem;
+}
